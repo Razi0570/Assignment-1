@@ -13,6 +13,10 @@
 
 /* Shared styles */
 
+body{
+  background-color: #F5F8FF;
+}
+
 .text-primary{
   color: #4E47FF;
 }
@@ -21,8 +25,10 @@
   color: #fd3894
 }
 
-.text-title{
+.section-title{
   color: #252432;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .text-description{
@@ -32,13 +38,22 @@
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
+    font-size: 16px;
     color: white;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
 }
 
+/* Main Styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  
+}
+
 /* Header Styles */
+
 .header{
   background-image: url('../images/Hero-bg.png');
   background-position: top;
@@ -52,7 +67,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 200px;
+    max-width: 1140px;
+    margin: 0 auto;
+    
 }
 
 .nav-title{
@@ -82,7 +99,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 116px 200px;
+  margin-top: 130px;
 }
 
 .action-content{
@@ -100,4 +117,104 @@ nav{
 
 .action-image{
   border-radius: 48px;
+}
+
+/* Productive User Section */
+
+.productive-user{
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  text-align: center;
+  padding: 50px 142px;
+  margin-top: 130px;
+}
+
+.user-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title{
+  font-weight: bold;
+  font-size: 80px;
+  margin: 0;
+  color: #4E47FF;
+}
+
+.item-description{
+  color: rgba(37, 36, 50, 0.5);
+  margin-top: 0;
+}
+
+/* Let's Get in Touch Section */
+
+.Contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+
+.contact-title{
+  font-size: 97px;
+}
+
+input[type="text"], input[type="email"], textarea{
+  display: block;
+  height: 40px;
+  width: 450px;
+  padding: 20px 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: rgba(214, 221, 237, 1);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"]{
+  height: 60px;
+  width: 100%;
+}
+
+legend{
+  font-weight: medium;
+  font-size: 18px;
+}
+
+/* Footer Section */
+footer{
+  background-color: white;
+  padding: 104px 454px;
+  text-align: center;
+}
+
+.footer-title{
+  font-weight: 900;
+  font-size: 90px;
+  margin: 8px;
+}
+
+.footer-description{
+  color: #8987A1 ;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 20px;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer li a{
+  text-decoration: none;
+  color: #8987A1;
 }
