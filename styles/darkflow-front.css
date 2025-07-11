@@ -21,6 +21,14 @@
   color: #fd3894
 }
 
+.text-title{
+  color: #252432;
+}
+
+.text-description{
+  color: rgba(37, 36, 50, 0.5);
+}
+
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -44,7 +52,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 150px;
+    padding: 40px 200px;
 }
 
 .nav-title{
@@ -61,10 +69,35 @@ nav{
 .banner-title{
   font-weight: bold;
   font-size: 65px;
-  color: #252432;
   
 }
 
 .btn-stay-focused{
   margin-bottom: 90px;
+}
+
+/* Action Section Styles */
+
+.action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 116px 200px;
+}
+
+.action-content{
+  max-width: 520px;
+}
+
+.action-title{
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.action-description{
+  font-size: 24px;
+}
+
+.action-image{
+  border-radius: 48px;
 }
