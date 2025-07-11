@@ -45,6 +45,10 @@ body{
     border-radius: 10px;
 }
 
+.image{
+  border-radius: 48px;
+}
+
 /* Main Styles */
 main{
   max-width: 1140px;
@@ -115,10 +119,6 @@ nav{
   font-size: 24px;
 }
 
-.action-image{
-  border-radius: 48px;
-}
-
 /* Productive User Section */
 
 .productive-user{
@@ -146,6 +146,20 @@ nav{
   margin-top: 0;
 }
 
+/* Ready To Focus Section */
+.ready-to-focus-items{
+  background-color: white;
+  max-width: 1140px;
+  border-radius: 14px;
+  padding: 70px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.ready-to-focus-item{
+  margin-bottom: 20px;
+}
+
 /* Let's Get in Touch Section */
 
 .Contact{
@@ -170,7 +184,7 @@ input[type="text"], input[type="email"], textarea{
   font-size: 20px;
   background-color: white;
   border-radius: 10px;
-  border-color: rgba(214, 221, 237, 1);
+  border: 1px solid #D6DDED;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -207,7 +221,7 @@ footer ul{
   display: flex;
   justify-content: center;
   gap: 48px;
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 
 footer ul li{
