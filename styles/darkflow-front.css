@@ -49,6 +49,18 @@ body{
   border-radius: 48px;
 }
 
+/* Animation Effects */
+
+.btn-animation:hover{
+  cursor: pointer;
+  background-color: #fd3894;
+  transform: translateY(-4px);
+}
+
+.image-animation:hover{
+  box-shadow: 0 8px 20px #fd3894 ;
+}
+
 /* Main Styles */
 main{
   max-width: 1140px;
@@ -144,6 +156,53 @@ nav{
 .item-description{
   color: rgba(37, 36, 50, 0.5);
   margin-top: 0;
+}
+
+/* User Review Section */
+
+.user-review{
+  margin-top: 130px;
+}
+
+.user-review-sec-title{
+  text-align: center;
+}
+
+.review-cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.review-card{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #F2EDED;
+  border-radius: 14px;
+  max-width: 365px;
+  max-height: 245px;
+  padding: 24px;
+}
+
+.review-item{
+  display: flex;
+  align-items: last baseline;
+  gap: 12px;
+}
+
+.use-details{
+  text-align: left;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+.user-name{
+  margin-bottom: 1px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.review-date{
+  margin-top: 1px;
 }
 
 /* Ready To Focus Section */
