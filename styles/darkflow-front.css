@@ -58,7 +58,13 @@ body{
 }
 
 .image-animation:hover{
+  transform: translateY(-4px);
   box-shadow: 0 8px 20px #fd3894 ;
+}
+
+.review-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 10px #fd389480
 }
 
 /* Main Styles */
